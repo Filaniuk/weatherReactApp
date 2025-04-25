@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+🌦️ Weather React App
+A minimalist and fast weather application built with React.
+Search for the weather of any location worldwide using the search bar or detect your current location automatically. Supports viewing hourly forecasts and switching between Celsius and Fahrenheit.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note: This project was created in just 2 hours as a quick exercise. It is a simple demonstration and does not aim to be a full production-ready application
 
-## Available Scripts
+### `npm start` to start the app locally on the port 3000.
 
-In the project directory, you can run:
+# 📸 Preview
+![{12552093-A557-47AA-A749-93C6CED9F2C3}](https://github.com/user-attachments/assets/2ad8a770-f7ed-41d8-888c-a7ed4afa7756)
 
-### `npm start`
+# 🌐 APIs Used
+🔎 Nominatim (OpenStreetMap)
+→ Geocoding service to find latitude and longitude from city name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌦️ Open-Meteo API
+→ Fetch detailed weather forecast based on coordinates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ✨ Features
+🌍 Global Location Search — find weather by typing city/place name.
 
-### `npm test`
+📍 Current Location Detection — get weather for your geolocation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌡️ Temperature Unit Switching — switch between °C and °F easily.
 
-### `npm run build`
+📅 Date Selection — view hourly forecast for today or upcoming days.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📈 Hourly Temperature Display — with corresponding weather icons.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛡️ Error Handling — friendly messages for invalid inputs or fetch errors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 🚀 Tech Stack
+React (Create React App / Vite)
 
-### `npm run eject`
+React Hooks (useFetchingWeather, useFetching)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React-Datepicker — for date picking
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Axios — HTTP requests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Custom Hooks — fetching and managing weather data
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS Modules — scoped styling
 
-## Learn More
+🌐 APIs Used
+🔎 Nominatim (OpenStreetMap)
+→ Geocoding service to find latitude and longitude from city name.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌦️ Open-Meteo API
+→ Fetch detailed weather forecast based on coordinates.
