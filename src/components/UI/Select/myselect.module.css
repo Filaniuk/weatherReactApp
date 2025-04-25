@@ -1,0 +1,29 @@
+select {
+    width: 100%;
+    padding: 5px 15px 5px 10px;
+    font-size: 16px;
+    border: 1px solid #282828;
+    border-radius: 4px;
+    background-color: #383838;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    height: 40px;
+    width: 150px;
+    color: white;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+option:hover {
+    background-color: #f1f1f1;
+}

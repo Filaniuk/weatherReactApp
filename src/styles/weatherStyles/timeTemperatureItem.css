@@ -1,0 +1,32 @@
+.time-temperature-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    gap: 3px;
+}
+
+.time-temperature-item.day {
+    background: linear-gradient(135deg, #007cf0, #41a6ce, #177bc3);
+}
+
+.time-temperature-item.night {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #1e3c72);
+}
+
+.time-temperature-item>p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.weather-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    scale: 1.7;
+    user-select: none;
+}

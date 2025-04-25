@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.AppStyles {
+  width: 100%;               /* fills available width */
+  margin: 0 auto;            /* centers horizontally */
+  padding-inline: 200px;     /* applies the padding you want */
+  box-sizing: border-box;    /* ensures padding stays within the width */
+}

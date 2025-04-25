@@ -1,0 +1,112 @@
+.react-datepicker-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 4px;
+    padding-right: 4px;
+    background-color: #383838;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.react-datepicker-wrapper:hover {
+    background-color: #282828;
+}
+
+.react-datepicker {
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Header (month/year) */
+  .react-datepicker__header {
+    background: linear-gradient(135deg, #007cf0, #00dfd8, #90f7ec);
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .react-datepicker__day--001 {
+    background-color: none;
+  }
+
+  /* Current month label */
+  .react-datepicker__current-month {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .react-datepicker__navigation {
+    top: 16px;
+    padding: 0 7px 0 0;
+  }
+  
+  /* Day names (Mon, Tue...) */
+  .react-datepicker__day-names {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .react-datepicker__day-name {
+    color: white;
+    font-weight: 500;
+  }
+  
+  /* Day cells */
+  .react-datepicker__day {
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: 0.2s;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  /* Today */
+  .react-datepicker__day--today {
+    padding: 1px;
+  }
+  
+  /* Hover effect */
+  .react-datepicker__day:hover {
+    background-color: #c8f8f3;
+    color: black;
+    padding: 3px 3px;
+
+  }
+  
+  /* Selected day */
+  .react-datepicker__day--selected,
+  .react-datepicker__day--keyboard-selected {
+    background-color: none;
+    color: white;
+    padding: 3px 3px;
+  }
+
+  
+  /* Disabled days */
+  .react-datepicker__day--disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Remove the little triangle (optional) */
+  .react-datepicker__triangle {
+    display: none;
+  }
+  
+  /* Add spacing to the full popup */
+  .react-datepicker__month-container {
+    padding: 8px;
+  }
+  

@@ -1,0 +1,37 @@
+.timeTemperatureList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.timeTemperatureListContainer {
+  background-color: rgba(12, 22, 219, 0.25);
+  border-radius: 12px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.timeTemperatureListContainer::-webkit-scrollbar {
+  height: 12px;
+}
+
+.timeTemperatureListContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.timeTemperatureListContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
